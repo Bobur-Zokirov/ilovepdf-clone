@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    height: 60px;
+    width: 100%;
+    background: #fff;
+}
+
+.header__main {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px 0 rgb(50, 50, 50, 30%)
+}
+
+.brand {
+    display: flex;
+}
+
+
+.brand__logo {
+    width: 120px;
+    background: #fff;
+}
+
+.brand__logo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.header__nav .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav .nav li {
+    /* margin-right: 2rem; */
+    padding: 0 24px ;
+}
+
+.header__nav .nav li a {
+    color: #161616;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.header__nav .nav li:hover a {
+    color: #e5322d;
+}
+
+.top-menu {
+    height: 100%;
+}
+
+.top-menu .nav {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .nav .nav__item {
+    /* padding: 0 12px; */
+    margin: 0;
+    height: 40px;
+}
+
+.top-menu .nav__item a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.top-menu .nav__item-gray a {
+    background: #f3f0ec;
+    color: #161616;
+    padding: 0 16px;
+}
+
+.top-menu .nav__item-red a {
+    background: #e5322d;
+    color: #fff;
+    padding: 0 16px;
+}
+
+.top-menu .nav__item-sub a {
+    background: #fff;
+    color: #000;
+    padding: 0 16px;
+}
+
+.top-menu .nav__item-sub a i {
+    font-size: 2rem;
+}
