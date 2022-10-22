@@ -1,4 +1,8 @@
 .main {
     background: #ccc;
-    height: 100vh;
+    height: 92vh;
+}
+
+.main h1 {
+    background: transparent;
 }
