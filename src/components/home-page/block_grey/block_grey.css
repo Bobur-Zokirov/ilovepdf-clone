@@ -1,0 +1,86 @@
+.block {
+    padding: 96px 0 124px;
+}
+
+.block--admin,
+.block--grey-admin {
+    background: #f2f3f8;
+}
+
+.block__container,
+.container,
+.footer-big__container {
+    max-width: 1200px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin: 0 auto;
+}
+
+.block__header {
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #383e45;
+    margin-bottom: 8px;
+    line-height: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle,
+.subtitle a:hover {
+    color: #383e45;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    line-height: 32px;
+}
+
+.block__header+.block__body {
+    margin-top: 64px;
+}
+
+.new-premium__logos {
+    margin: auto;
+    max-width: 580px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new-premium,
+.new-premium__logos {
+    display: flex;
+    width: 100%;
+}
+
+.pdf_logo {
+    width: 55;
+    height: 25px;
+    margin-top: 1px;
+}
+
+.iso_logo {
+    width: 67px;
+    height: 30px;
+}
+
+.ssl_logo {
+    width: 89px;
+    height: 30px;
+}
